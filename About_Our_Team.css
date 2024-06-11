@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url('Background.webp'); */
+    /* background-image: url('Background_1.jpg'); */
+    background-image: url('B_BAD_01.jpg');
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    font-family: cursive;
+    font-size: large;
+}
+
+.leftbox{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+
+}
+
+.leftbox a{
+    
+    color: white;
+    text-decoration: none;
+}
+.leftbox a p{
+    margin: 7px 0px;
+}
+.logo{
+    /* height: 21px; */
+    border-radius: 10px;
+    width: 56px;
+    display: block;
+    margin: auto;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.midbox{
+    /* border: 2px solid yellow; */
+    border: 2px solid #acadff;
+    
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 24px;
+    /* background-color: rgb(105, 185, 134); */
+
+    
+}
+/* .midbox ul{
+    
+} */
+.midbox ul li{
+    display: inline-block;
+}
+
+.midbox ul li a{
+    /* display: inline-block; */
+    text-decoration: none;
+    color: white;
+    padding: 0px 0px;
+    margin: 0px 15px;
+}
+.midbox ul li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.rightbox{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    
+}
+.rightbox a{
+    
+    color: white;
+    text-decoration: none;
+}
+.rightbox a p{
+    margin: 7px 0px;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+/* .container{
+    border: 2px solid yellow;
+    
+} */
+
+#para1{
+    border: 2px solid rgb(220 255 151);
+    border-radius: 21px;
+    width: 32%;
+    padding: 12px;
+    position: absolute;
+    top: 212px;
+    left: 184px;
+    margin: 0px;
+    color: #ff60c9;
+}
+
+.container img{
+    border: 2px solid #bcf1cc;
+    display: block;
+    border-radius: 21px;
+    width: 34%;
+    padding: 0px;
+    position: absolute;
+    top: 312px;
+    left: 751px;
+    margin: 0px;
+}
+#para2{
+    border: 2px solid rgb(255 196 125);
+    border-radius: 21px;
+    width: 32%;
+    padding: 12px;
+    position: absolute;
+    top: 875px;
+    left: 836px;
+    margin: 0px;
+    color: #74f0ff;
+}
+
+.container1 img{
+    border: 2px solid #bcf1cc;
+    display: block;
+    border-radius: 21px;
+    width: 34%;
+    padding: 0px;
+    position: absolute;
+    top: 591px;
+    left: 149px;
+    margin: 0px;
+}
